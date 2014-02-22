@@ -1,31 +1,43 @@
-input {
-    display: block;
-    box-sizing: border-box;
-    border: 0;
-    width: 40%;
-    border-bottom: 2px solid #ddd;
-    outline: none;
-    margin-bottom: 16px;
+.hide {  
+    opacity: 0;
 }
-input:focus {
-    border-color: #2996cc;
+.input {
+    display: block;
+    width: 40%;
+    outline: none;
+    margin-bottom: 22px; 
+}
+.input:focus {
+    border-color: #2980b9;
 }
 .label {
     position: absolute;
-    margin-top: -9px;
-    font-size: 9px;
+    font-size: 10px;
     color: #3498db;
     font-weight: bold;
     transition: .4s all;
 }
-.hide{
-    opacity: 0;
-    margin-top: -5px;
+
+
+.demo1 .input {
+    border: 0;
+    border-bottom: 2px solid #ddd;
+}
+.demo1 .label {
+    margin-top: -12px;
+}
+.demo1 .hide {
+    margin-top: -8px;
 }
 
-.rounded {
+.demo2 .input {
     border: 1px solid #ddd;
     border-radius: 3px;
     padding: 4px 6px;
-    margin-bottom: 20px;
+}
+.demo2 .label {
+    margin-top: -15px;
+}
+.demo2 .hide {
+    margin-top: -9px;
 }

@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', function(){
-    var inputs = document.querySelectorAll("input");
+    var inputs = document.querySelectorAll(".input");
     Array.prototype.forEach.call(inputs, function(input, i){
-        label = document.createElement("label");
-        text = document.createTextNode(input.getAttribute("placeholder"));
+        var label = document.createElement("label");
+        var text = document.createTextNode(input.getAttribute("placeholder"));
         label.appendChild(text);
         input.parentNode.insertBefore(label, input);
         addClass(label, "hide");
         addClass(label, "label");
         label.setAttribute("for", input.getAttribute("id"));
         
-        input.addEventListener('input', function(){
+        input.addEventListener("input", function(){
             if(this.value != ""){
                 removeClass(this.previousSibling, "hide");
             } else if(this.value == ""){

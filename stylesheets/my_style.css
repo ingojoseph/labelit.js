@@ -1,0 +1,31 @@
+input {
+    display: block;
+    box-sizing: border-box;
+    border: 0;
+    width: 40%;
+    border-bottom: 2px solid #ddd;
+    outline: none;
+    margin-bottom: 16px;
+}
+input:focus {
+    border-color: #2996cc;
+}
+.label {
+    position: absolute;
+    margin-top: -9px;
+    font-size: 9px;
+    color: #3498db;
+    font-weight: bold;
+    transition: .4s all;
+}
+.hide{
+    opacity: 0;
+    margin-top: -5px;
+}
+
+.rounded {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 4px 6px;
+    margin-bottom: 20px;
+}

@@ -7,13 +7,9 @@
     outline: none;
     margin-bottom: 22px; 
 }
-.input:focus {
-    border-color: #2980b9;
-}
 .label {
     position: absolute;
     font-size: 10px;
-    color: #3498db;
     font-weight: bold;
     transition: .4s all;
 }
@@ -25,6 +21,7 @@
 }
 .demo1 .label {
     margin-top: -12px;
+    color: #3498db;
 }
 .demo1 .hide {
     margin-top: -8px;
@@ -37,7 +34,22 @@
 }
 .demo2 .label {
     margin-top: -15px;
+    color: #3498db;
 }
 .demo2 .hide {
     margin-top: -9px;
+}
+
+.demo3 .input {
+    border: 1px solid #aaa;
+    padding: 4px 6px;
+}
+.demo3 .label {
+    margin-top: -14px;
+    background: #aaa;
+    padding: 1px 6px;
+    color: #fff;
+}
+.demo3 .hide {
+    margin-top: -8px;
 }

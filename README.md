@@ -11,13 +11,14 @@ If you like it please give me a star and follow me at [@IngoJoseph](https://www.
 ## How to use it?
 
 ### HTML
-Just add your inputs with a placeholder and a id.
+You need inputs with a placeholder and a id.
 ```
 <input class="input" type="text" id="username" placeholder="Username" />
 <input class="input" type="email" id="email" placeholder="Email" />
 <input class="input" type="password" id="password" placeholder="Password" />
 ```
 ### CSS
+You have to add this CSS. Customize it how you want it. The new label that will be added by the script has the class `.label`.
 
 ```
 .hide {  
